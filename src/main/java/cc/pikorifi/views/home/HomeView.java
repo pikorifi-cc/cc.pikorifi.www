@@ -16,7 +16,7 @@ public class HomeView extends VerticalLayout {
         setSpacing(false);
 
         Image img = new Image("images/pikorifi.jpg", "photo of the device running everything");
-        img.setWidth("1280px");
+        img.setWidth("800px");
         add(img);
 
         H2 header = new H2("Cloud Foundry Korifi running on a single Raspberry Pi 5");
