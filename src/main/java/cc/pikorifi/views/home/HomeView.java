@@ -22,7 +22,7 @@ public class HomeView extends VerticalLayout {
         H2 header = new H2("Cloud Foundry Korifi running on a single Raspberry Pi 5");
         header.addClassNames(Margin.Top.XLARGE, Margin.Bottom.MEDIUM);
         add(header);
-        add(new Paragraph("Running Spring Boot 3.4.2 and Vaading 24.6"));
+        add(new Paragraph("Running Spring Boot 3.4.2 and Vaadin 24.6.2"));
 
         setSizeFull();
         setJustifyContentMode(JustifyContentMode.CENTER);
